@@ -1,7 +1,3 @@
-Here’s the rewritten README in a clean, copy-friendly format:
-
----
-
 # SSH Honeypot with Alpine Linux and Ubuntu-Like Environment
 
 This project creates a Dockerized SSH honeypot designed to resemble a typical Ubuntu server environment. The honeypot logs all connection attempts and user commands for analysis, making it an effective tool for gathering intelligence about potential attackers.
@@ -224,7 +220,5 @@ Contributions are welcome! Fork the repository, make your changes, and submit a 
 
 **Your Name**  
 Senior Cloud Engineer and Fullstack Developer  
-Email: your_email@example.com
+Email: rahalamrith46@gmail.com
 ```
-
-This version is cleanly formatted and easy to copy and paste. Let me know if you'd like further adjustments!
