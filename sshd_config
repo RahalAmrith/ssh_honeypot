@@ -1,0 +1,17 @@
+Port 22
+PermitRootLogin no
+
+PasswordAuthentication yes
+PubkeyAuthentication yes
+
+AuthorizedKeysFile %h/.ssh/authorized_keys
+
+ChallengeResponseAuthentication no
+
+UsePAM yes
+Subsystem sftp /usr/lib/ssh/sftp-server
+
+ForceCommand /usr/local/bin/honeypot-logger
+
+Banner /etc/ssh/banner
+PrintMotd yes

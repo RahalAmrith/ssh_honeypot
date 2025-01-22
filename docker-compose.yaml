@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  ssh-honeypot:
+    image: ssh-honeypot
+    hostname: MS_Automation
+    build:
+      context: .
+    container_name: ssh-honeypot
+    ports:
+      - "22:22" # Map port 2222 on the host to port 22 in the container
+    volumes:
+      - ./honeypot.log:/var/log/honeypot # Mount log file
+    restart: always
